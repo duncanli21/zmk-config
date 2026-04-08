@@ -1,0 +1,33 @@
+# This file was generated from a template. Edit it to match your keyboard.
+# See https://docs.zephyrproject.org/4.1.0/hardware/porting/board_porting.html#write-kconfig-files
+# for more information.
+
+# Enable MPU
+CONFIG_ARM_MPU=y
+
+# Enable GPIO
+CONFIG_GPIO=y
+
+# Enable pinctrl
+CONFIG_PINCTRL=y
+
+# Place application at &code_partition address
+CONFIG_USE_DT_CODE_PARTITION=y
+
+# Generate a .uf2 firmware image
+CONFIG_BUILD_OUTPUT_UF2=y
+
+# Enable NVS for settings
+CONFIG_MPU_ALLOW_FLASH_WRITE=y
+CONFIG_NVS=y
+CONFIG_SETTINGS_NVS=y
+CONFIG_FLASH=y
+CONFIG_FLASH_PAGE_LAYOUT=y
+CONFIG_FLASH_MAP=y
+
+# Uncomment this if not using an external 32 kHz crystal
+# CONFIG_CLOCK_CONTROL_NRF_K32SRC_RC=y
+
+# Enable ZMK BLE and USB output
+CONFIG_ZMK_BLE=y
+CONFIG_ZMK_USB=y

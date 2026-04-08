@@ -1,0 +1,30 @@
+# This file was generated from a template. Edit it to match your keyboard.
+# See https://docs.zephyrproject.org/4.1.0/hardware/porting/board_porting.html#write-kconfig-files
+# for more information.
+
+if BOARD_CYGNUS4X6_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "cygnus4x6"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # BOARD_CYGNUS4X6_LEFT
+
+if BOARD_CYGNUS4X6_LEFT || BOARD_CYGNUS4X6_RIGHT
+
+if USB
+
+config USB_NRFX
+    default y
+
+config USB_DEVICE_STACK
+    default y
+
+endif # USB
+
+config BT_CTLR
+    default BT
+
+endif # BOARD_CYGNUS4X6_LEFT || BOARD_CYGNUS4X6_RIGHT
