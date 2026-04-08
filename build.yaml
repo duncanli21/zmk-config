@@ -21,3 +21,8 @@
 include:
   - board: cygnus4x6_left
   - board: cygnus4x6_right
+
+  - board: nice_nano_v2
+    shield: lily58_left
+  - board: nice_nano_v2
+    shield: lily58_right
