@@ -12,3 +12,12 @@
 /*         , <&gpio0 0 GPIO_ACTIVE_HIGH> */
 /*         ; */
 /* }; */
+
+{
+  physical_layout0: physical_layout0 {
+    compatible "zmk,physical-layout";
+    display-name = "Default Layout";
+    kscan = <kscan>;
+    transform = <&default_transform>;
+  }
+}

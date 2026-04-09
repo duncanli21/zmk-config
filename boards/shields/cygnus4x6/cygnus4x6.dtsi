@@ -43,11 +43,15 @@
             ;
     };
 
+    &default_transform {
+        col-offset = <6>
+    };
+
     default_transform: default_transform {
         // See https://zmk.dev/docs/development/hardware-integration/new-shield#matrix-transform
         // for how to configure this
         compatible = "zmk,matrix-transform";
-        columns = <6>;
+        columns = <12>;
         rows = <5>;
 
         map = <
