@@ -9,6 +9,7 @@
         display-name = "Default Layout";
         transform = <&default_transform>;
         kscan = <&kscan>;
+    };
 
         // Edit this to define the positions and sizes of the keys, or remove it
         // if your keyboard will not support ZMK Studio.
