@@ -13,7 +13,7 @@
     };
 
     vbatt: vbatt {
-      compatible = "zmk,battery-nrf-vddhv";
+      compatible = "zmk,battery-nrf-vddh";
       label = "VBATT";
     }
 
