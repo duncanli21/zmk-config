@@ -9,7 +9,7 @@
 / {
     chosen {
         zmk,physical-layout = &default_layout;
-        zmk,battery = "&vbatt";
+        zmk,battery = &vbatt;
     };
 
     vbatt: vbatt {
