@@ -9,7 +9,13 @@
 / {
     chosen {
         zmk,physical-layout = &default_layout;
+        zmk,battery = "&vbatt";
     };
+
+    vbatt: vbatt {
+      compatible = "zmk,battery-nrf-vddhv";
+      label = "VBATT";
+    }
 
     kscan: kscan {
         // If the hardware does not use a switch matrix, change this to the
