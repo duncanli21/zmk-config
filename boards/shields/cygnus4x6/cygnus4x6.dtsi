@@ -15,7 +15,7 @@
     vbatt: vbatt {
       compatible = "zmk,battery-nrf-vddh";
       label = "VBATT";
-    }
+    };
 
     kscan: kscan {
         // If the hardware does not use a switch matrix, change this to the
