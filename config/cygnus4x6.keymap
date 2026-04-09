@@ -21,7 +21,7 @@
             //                      | SUPER | SYMBL | ENTER |  ALT  | SPACE | BKSPCE|
 
             bindings = <
-&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp NON_US_BACKSLASH  &kp ESCAPE  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &kp SINGLE_QUOTE  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RSHIFT  &kp LGUI  &kp BACKSPACE  &kp LEFT_SHIFT  &kp ENTER  &kp SPACE  &mo 1
+&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp NON_US_BACKSLASH  &kp ESCAPE  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &kp SINGLE_QUOTE  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp LGUI  &mo 2  &kp BACKSPACE  &kp LEFT_SHIFT  &kp ENTER  &kp SPACE  &mo 1
             >;
         };
 
@@ -36,7 +36,13 @@
             //                      |       |       |       |  RALT |       |  DEL  |
 
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_SEL 0  &bt BT_SEL 1  &kp HOME  &kp UP  &kp END  &kp PG_UP  &kp RBKT  &kp RA(N7)  &kp RA(N0)  &trans  &trans  &bt BT_CLR  &trans  &bt BT_SEL 2  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &kp NUHS  &kp LS(N8)  &kp LS(N9)  &trans  &trans  &trans  &trans  &kp RA(NUBS)  &trans  &kp NUBS  &kp LS(NUBS)  &trans  &kp GRAVE  &kp RA(N8)  &kp RA(N9)  &trans  &trans  &studio_unlock  &trans  &trans  &trans  &kp RALT  &trans  &kp DEL
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_SEL 0  &kp GRAVE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_SEL 1  &kp GRAVE  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(N8)  &kp LS(N9)  &trans  &trans  &trans  &bt BT_SEL 2  &kp RA(KP_NUMBER_0)  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp LS(KP_NUMBER_3)  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RA(N8)  &kp RA(N9)  &trans  &trans  &studio_unlock  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DEL  &trans  &trans  &trans  &trans  &trans  &trans  &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp UP_ARROW  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
