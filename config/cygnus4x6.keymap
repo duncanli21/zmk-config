@@ -21,7 +21,7 @@
             //                      | SUPER | SYMBL | ENTER |  ALT  | SPACE | BKSPCE|
 
             bindings = <
-&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp BACKSLASH  &kp ESCAPE  &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LCTRL S  &lt 1 T  &kp D  &kp H  &lt 1 N  &mt RCTRL E  &mt RALT I  &mt RGUI O  &kp SINGLE_QUOTE  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp LGUI  &mo 2  &kp BACKSPACE  &kp LEFT_SHIFT  &kp ENTER  &kp SPACE  &mo 1
+&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &mt LEFT_GUI TAB  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp BACKSLASH  &lt 1 ESCAPE  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &kp SINGLE_QUOTE  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp LGUI  &mo 2  &kp BACKSPACE  &kp LEFT_SHIFT  &kp ENTER  &kp SPACE  &mo 1
             >;
         };
 
@@ -50,16 +50,6 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
-        };
-    };
-
-    behaviors {
-        hm: home_row_mod {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>; // <--- SET TAP TERM HERE
-            bindings = <&kp>, <&kp>;
         };
     };
 };
