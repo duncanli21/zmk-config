@@ -21,7 +21,7 @@
             //                      | SUPER | SYMBL | ENTER |  ALT  | SPACE | BKSPCE|
 
             bindings = <
-&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &mt LGUI TAB  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp BACKSLASH  &kp ESCAPE  &lt 1 A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &lt 1 O  &kp SINGLE_QUOTE  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp LGUI  &mo 2  &kp BACKSPACE  &kp LEFT_SHIFT  &kp ENTER  &kp SPACE  &mo 1
+&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp BACKSLASH  &kp ESCAPE  &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LCTRL S  &lt 1 T  &kp D  &kp H  &lt 1 N  &mt RCTRL E  &mt RALT I  &mt RGUI O  &kp SINGLE_QUOTE  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp LGUI  &mo 2  &kp BACKSPACE  &kp LEFT_SHIFT  &kp ENTER  &kp SPACE  &mo 1
             >;
         };
 
@@ -36,13 +36,13 @@
             //                      |       |       |       |  RALT |       |  DEL  |
 
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &kp UNDER  &kp N7  &kp N8  &kp N9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp AT_SIGN  &kp AMPERSAND  &trans  &trans  &trans  &kp GRAVE  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HASH  &kp DOLLAR  &kp ASTERISK  &kp PLUS  &trans  &trans  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PERCENT  &kp CARET  &trans  &trans  &studio_unlock  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &kp UNDER  &kp N7  &kp N8  &kp N9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp AT_SIGN  &kp AMPERSAND  &trans  &trans  &trans  &kp GRAVE  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HASH  &kp DOLLAR  &kp ASTERISK  &kp PLUS  &trans  &trans  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PERCENT  &kp CARET  &trans  &trans  &trans  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&bootloader  &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &kp DEL  &trans  &trans  &trans  &trans  &trans  &trans  &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp UP_ARROW  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&bootloader  &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &kp DEL  &trans  &trans  &trans  &trans  &trans  &trans  &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp UP_ARROW  &trans  &trans  &trans  &trans  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
