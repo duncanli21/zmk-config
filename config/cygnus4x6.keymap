@@ -52,4 +52,14 @@
             >;
         };
     };
+
+    behaviors {
+        hm: home_row_mod {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>; // <--- SET TAP TERM HERE
+            bindings = <&kp>, <&kp>;
+        };
+    };
 };
