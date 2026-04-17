@@ -1,14 +1,10 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "cygnus4x6-layouts.dtsi"
 
-&physical_layout0 {
-  transform = <&default_transform>;
-}
-
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical_layout = &physical_layout0;
+        zmk,physical-layout = &default_layout;
     };
 
     mock_kscan: mock_kscan_0 {
