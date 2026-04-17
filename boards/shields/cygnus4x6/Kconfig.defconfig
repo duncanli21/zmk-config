@@ -1,15 +1,5 @@
 
 # Main keyboard config
-if SHIELD_CYGNUS4X6_LEFT
-
-config ZMK_KEYBOARD_NAME
-    default "cygnus4x6"
-
-# config ZMK_SPLIT_ROLE_CENTRAL
-#     default y
-
-endif # SHIELD_CYGNUS4X6_LEFT
-
 if SHIELD_CYGNUS4X6_LEFT || SHIELD_CYGNUS4X6_RIGHT
 
 config ZMK_SPLIT
