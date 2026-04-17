@@ -12,7 +12,7 @@
     };
 
     kscan: kscan {
-        compatible = "zmk,kscan-mock";
+        compatible = "zmk,kscan";
         columns = <0>;
         rows = <0>;
         events = <0>;
