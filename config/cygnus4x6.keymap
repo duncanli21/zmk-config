@@ -21,7 +21,7 @@
             //                      | SUPER | SYMBL | ENTER |  ALT  | SPACE | BKSPCE|
 
             bindings = <
-&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &mt LEFT_GUI TAB  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &mt LALT NON_US_BACKSLASH  &lt 2 ESCAPE  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &lt 2 SQT  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp LGUI  &mo 1  &kp BACKSPACE  &kp LEFT_SHIFT  &kp ENTER  &kp SPACE  &mo 1
+&kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &mt LEFT_GUI TAB  &kp Q  &kp W  &kp F  &kp P  &kp G  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &mt LALT PIPE  &lt 2 ESCAPE  &kp A  &kp R  &kp S  &kp T  &kp D  &kp H  &kp N  &kp E  &kp I  &kp O  &lt 2 SQT  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp K  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp LGUI  &mo 1  &kp BACKSPACE  &kp LEFT_SHIFT  &kp ENTER  &kp SPACE  &mo 1
             >;
         };
 
@@ -36,7 +36,7 @@
             //                      |       |       |       |  RALT |       |  DEL  |
 
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp EQUAL  &kp GRAVE  &kp AMPERSAND  &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N1  &kp N2  &kp N3  &trans  &trans  &trans  &kp UNDER  &kp ASTERISK  &kp PLUS  &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N4  &kp N5  &kp N6  &kp LESS_THAN  &kp GREATER_THAN  &trans  &kp CARET  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp EQUAL  &kp GRAVE  &kp AMPERSAND  &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N1  &kp N2  &kp N3  &trans  &kp BACKSLASH  &trans  &kp UNDER  &kp ASTERISK  &kp PLUS  &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N4  &kp N5  &kp N6  &kp LESS_THAN  &kp GREATER_THAN  &trans  &kp CARET  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
